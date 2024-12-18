@@ -1,0 +1,42 @@
+.list {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .tabs span {
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: small;
+    padding: 20px;
+  }
+  
+  .tabs .active {
+    background-color: rgb(88, 130, 145);
+    font-weight: bold;
+    font-size: small;
+    padding: 10px;
+    border-radius: 10%;
+    color: white;
+  }
+
+  .title {
+    font-size: 30px;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+
+  .list-icon{
+    display: flex;
+    justify-items:flex-end;
+    margin-left: 100px;
+    padding: 5px;
+  }
+
+  .content-items {
+    max-height: 780px;
+    overflow-y: scroll;
+  }

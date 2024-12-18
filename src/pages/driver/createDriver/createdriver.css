@@ -1,0 +1,42 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content-input {
+    width: 200px;
+    margin: 20px;
+  }
+
+  .text-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+
+  button {
+    background-color: rgb(88, 130, 145);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    height: 40px;
+    margin-top: 10px;
+  }
+
+  button:hover {
+    background-color: rgb(88, 130, 145);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    height: 40px;
+    margin-top: 10px;
+  }

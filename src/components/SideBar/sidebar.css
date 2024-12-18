@@ -1,0 +1,27 @@
+.sidebar {
+    background-color: #1f1f2e;
+    color: white;
+    height: 100vh;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .sidebar nav ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .link {
+    margin: 25px 0;
+    cursor: pointer;
+  }
+
+  .profile-icon{
+    margin: 20px 0px;
+    padding: 20px;
+  }
